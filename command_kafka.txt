@@ -20,7 +20,7 @@ Start Kafka-server:
 ----------------------------------------
 Duplicate the session & enter in a new console --
 export KAFKA_HEAP_OPTS="-Xmx256M -Xms128M"
-cd kafka_2.12-3.3.1
+cd kafka_2.12-3.7.0
 bin/kafka-server-start.sh config/server.properties
 
 It is pointing to private server , change server.properties so that it can run in public IP 
